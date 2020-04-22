@@ -1,10 +1,10 @@
 def new_hash
-  new_hash = hash.new
-    # return an empty hash
+  new_hash = {}
+  new_hash
 end
 
 def my_hash
-  my_hash = {1: "two", 2: "three"}
+  {1: "two", 2: "three"}
   # return a valid hash with any key/value pair of your choice
 end
 
