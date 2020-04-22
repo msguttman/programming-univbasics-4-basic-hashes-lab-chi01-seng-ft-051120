@@ -4,9 +4,13 @@ def new_hash
 end
 
 def my_hash
-  {1: "two", 2: "three"}
+  {
+  :hello => "two",
+  :goodbye => "three"
+  }
   # return a valid hash with any key/value pair of your choice
 end
+
 
 def pioneer
   new_hash = {name: "Grace Hopper"}
